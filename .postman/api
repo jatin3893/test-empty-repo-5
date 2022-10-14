@@ -1,0 +1,17 @@
+id = a69eac3a-ed2f-4ec7-9090-bc004ebabf03
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"869033-d04aaf76-bc45-4864-99d1-70a647048288","path":"Coll Rutvik 2_cc30e7e8-469c-454f-afa1-eefa2da36011.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"Schema.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = Schema.yaml
