@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "d04aaf76-bc45-4864-99d1-70a647048288",
+		"_postman_id": "02fe80aa-07e0-47e9-96d4-71b2b38d366b",
 		"name": "Coll Rutvik 2",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "869033-d04aaf76-bc45-4864-99d1-70a647048288"
+		"_uid": "1621242-02fe80aa-07e0-47e9-96d4-71b2b38d366b"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "cf7e811f-ecb1-4067-930a-890759d7a522",
+			"id": "c75f3602-cf79-4363-97a9-1aab44cba1a8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -41,7 +41,7 @@
 			},
 			"response": [
 				{
-					"id": "7589fa19-63cc-4b27-978c-4019f8ac76f8",
+					"id": "1528b39f-44c8-4c40-b22b-73fa846d5ba1",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -85,7 +85,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"enim Duis consequat\",\n  \"type\": \"capsule\",\n  \"description\": \"laboris adipisicing ut\"\n}"
 				},
 				{
-					"id": "69506c34-0410-435d-9f6f-00954900db67",
+					"id": "bf844562-edfc-4f66-a3fc-11bc5c0f00a1",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -129,7 +129,7 @@
 					"body": "{\n  \"message\": \"non\"\n}"
 				},
 				{
-					"id": "c04b14e9-dbbd-418e-9722-451306b571ae",
+					"id": "a7355197-580d-49d0-8859-0fe5d17a5053",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
